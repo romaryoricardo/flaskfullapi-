@@ -13,7 +13,7 @@ class Index(Resource):
         # retornado em json pelo flask
         version = open("VERSION", "r")
         return {
-            'Name': 'Api-user',
+            'Name': 'api-user',
             'Version': version.read()
             }
 
